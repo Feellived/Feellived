@@ -147,6 +147,8 @@ Framingham 심장연구 데이터 하나로 **EDA → 추론 → 회귀 → 예�
 <div align="center">
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Feellived)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:zzuhyeong2@korea.ac.kr)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/juhyeong-yu/)
 
 
 관심 있는 주제로 이야기 나누고 싶다면 언제든 Issue나 Discussion으로 남겨주세요.
