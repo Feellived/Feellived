@@ -87,16 +87,16 @@
 
 > `YOLOv11` `ConvNeXt` `PaddleOCR` `PyTorch` `MySQL` `Solar LLM` `Gradio`
 
-### 🧬 항원 MSA 편향 진단 — 항체·항원 도킹
+### 🧬 항원 MSA 편향 진단 및 활용 — 항체·항원 도킹
 
 `SNU BK21 학부연구` · 이창한 교수 항체·면역학 연구실
 
-AlphaFold3 계열 co-folder가 항체–항원 도킹에서 **공개 구조에 흔한(면역우세) 에피토프로 예측을 끌어당기는** 학습 편향을 다룹니다. 그 편향이 항원 MSA를 통해 전달되는지 진단하고, MSA 깊이 반응(depth-response)을 pose 선택 신호로 쓰는 연구입니다.
+AlphaFold3 계열 co-folder가 항체–항원 도킹에서 **공개 구조에 흔한(면역우세) 에피토프로 예측을 끌어당기는** 학습 편향이 존재한다는 가설을 세웠습니다. 그 편향이 항원 MSA를 통해 전달되는지 진단하고, MSA 깊이 반응(depth-response)을 pose 선택 신호로 쓰는 연구입니다.
 
-- **A/B/C 3그룹 leakage-free 설계** — 같은 항원 안에서 결합 위치만 바꿔 confound를 통제
+- **leakage-free 설계** — 
 - **핵심 발견**: 깊이가 아니라 **MSA 구성(composition)** 이 결합자리 선택을 좌우 (조성 8종 × 4런, 이질성 검정 `p=0.0025`)
 - **budget-matched control** 로 best-of-N 설명 배제 (Fisher `p=3.9×10⁻⁸`)
-- 반증된 가설은 그대로 기록 — “깊이 축소는 전 표적 일괄 처방으로 작동하지 않는다”는 음성 결과와 재발 방지 체크리스트를 문서화
+- **End-to-End Pipeline 생성 **: MSA 구성 변화에 의해 제시된 후보 결합 자리를 기반으로 도킹하는 파이프라인을 구성했습니다. AlphaFold3로 해결하지 못하는 일부 복합체에 대해 더 높은 DockQ 값을 달성했습니다.
 
 > `AlphaFold3` `Boltz-2` `Protenix` `HADDOCK` `순열검정` `Neff 정규화`
 
