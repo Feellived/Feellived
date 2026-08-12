@@ -87,7 +87,7 @@
 
 ### 🧬 MSA 조성 편향 규명과 결합 자리 유도 도킹 — 항체·항원 구조 예측
 
-`SNU BK21 학부연구` · 이창한 교수 항체·면역학 연구실 · **[msa-composition-bias](https://github.com/Feellived/msa-composition-bias)** · **[epitope-guided-docking](https://github.com/Feellived/epitope-guided-docking)**
+`SNU BK21 학부연구` · 이창한 교수 항체·면역학 연구실 · **[Feellived/msa-composition-bias](https://github.com/Feellived/msa-composition-bias)** · **[Feellived/epitope-guided-docking](https://github.com/Feellived/epitope-guided-docking)**
 
 AlphaFold3 계열 co-folder는 단백질 구조는 잘 접지만 항체–항원 **결합 자리**에서는 자주 틀리고, 모델이 내놓는 전역 신뢰도(ipTM)는 계면의 옳고 그름을 가르지 못합니다. 그 원인을 항원 MSA에서 찾고, 거기서 얻은 성질을 결합 자리 예측에 이용했습니다.
 
