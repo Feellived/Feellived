@@ -68,7 +68,7 @@
 
 ### 🩺 PILLAR — AI 복약 지도 자동 생성 시스템
 
-`Team PM` · 투빅스 25기 컨퍼런스 · **[Feellived/Pillar](https://github.com/Feellived/Pillar)**
+`Team PM(YOLOv11n + Fusion)` · 투빅스 25기 컨퍼런스 · **[Feellived/Pillar](https://github.com/Feellived/Pillar)**
 
 여러 약을 함께 먹는 다약제 복용 환경에서, 약봉투를 잃어버리는 순간 “무슨 약인지” 확인할 방법이 사라진다는 문제에서 출발했습니다. 알약 사진 한 장으로 약을 식별하고 상호작용까지 짚어주는 파이프라인을 설계했습니다.
 
@@ -87,7 +87,7 @@
 
 ### 🧬 MSA 조성 편향 규명과 결합 자리 유도 도킹 — 항체·항원 구조 예측
 
-`SNU BK21 학부연구` · 이창한 교수 항체·면역학 연구실 · **[Feellived/msa-composition-bias](https://github.com/Feellived/msa-composition-bias)** · **[Feellived/epitope-guided-docking](https://github.com/Feellived/epitope-guided-docking)**
+`SNU BK21 Undergraduate Researcher` · 이창한 교수 항체·면역학 연구실 · **[Feellived/msa-composition-bias](https://github.com/Feellived/msa-composition-bias)** · **[Feellived/epitope-guided-docking](https://github.com/Feellived/epitope-guided-docking)**
 
 AlphaFold3 계열 co-folder는 단백질 구조는 잘 접지만 항체–항원 **결합 자리**에서는 자주 틀리고, 모델이 내놓는 전역 신뢰도(ipTM)는 계면의 옳고 그름을 가르지 못합니다. 그 원인을 항원 MSA에서 찾고, 거기서 얻은 성질을 결합 자리 예측에 이용했습니다.
 
@@ -119,7 +119,7 @@ MSA의 **깊이(서열 수)를 고정한 채 구성원만 다시 뽑는** 설계
 
 ### 🎵 F-Sync — 의도-반응 괴리도(Gap) 분석
 
-`FNC 미래 일경험 8팀` · **[Feellived/fsync-ai-agent](https://github.com/Feellived/fsync-ai-agent)**
+`Team Leader` · **[Feellived/fsync-ai-agent](https://github.com/Feellived/fsync-ai-agent)**
 
 소셜 리스닝이 “반응이 어땠는가”만 재는 데 그친다면, F-Sync는 **“기획이 의도한 메시지가 실제로 전달됐는가”** 를 라벨 단위로 수치화합니다.
 
@@ -131,7 +131,7 @@ MSA의 **깊이(서열 수)를 고정한 채 구성원만 다시 뽑는** 설계
 
 ### 📈 통계적 추론과 회귀분석 — 투빅스 26기 정규세션
 
-`강의자` · **[Feellived/tobigs-26th-stat-inference-regression](https://github.com/Feellived/tobigs-26th-stat-inference-regression)**
+`Lecturer` · **[Feellived/tobigs-26th-stat-inference-regression](https://github.com/Feellived/tobigs-26th-stat-inference-regression)**
 
 Framingham 심장연구 데이터 하나로 **EDA → 추론 → 회귀 → 예측** 을 관통하는 86슬라이드 강의와 Colab 과제를 제작했습니다.
 
@@ -147,7 +147,7 @@ Framingham 심장연구 데이터 하나로 **EDA → 추론 → 회귀 → 예�
 <div align="center">
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Feellived)
-[![Notion](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=notion&logoColor=white)](https://www.notion.so/Juhyeong-Yoo-3acac1a3a28a81e5b023dc2ac2d0fb5a)
+
 
 관심 있는 주제로 이야기 나누고 싶다면 언제든 Issue나 Discussion으로 남겨주세요.
 
