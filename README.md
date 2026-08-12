@@ -115,7 +115,7 @@ MSA의 **깊이(서열 수)를 고정한 채 구성원만 다시 뽑는** 설계
 - **개입 대상 선별이 결정적** — 게이트를 통과한 16종은 평균 +0.052이나, 30종 전체에 개입하면 평균 −0.049
 - **AlphaFold 3 대비** 자리 축에서 우위 — AlphaFold 3가 5개 결과 모두 결합 자리를 전혀 회복하지 못한 복합체(겹침 0.000)에서 0.824를 달성
 
-> `Protenix` `Boltz-2` `Chai-1` `AlphaFold3` `HADDOCK` `DockQ` `순열검정` `Fisher 결합` `Neff 정규화`
+> `Protenix` `Boltz-2` `Chai-1` `AlphaFold3` `HADDOCK` `DockQ` `AbiEpiTope-1.0` 
 
 ### 🎵 F-Sync — 의도-반응 괴리도(Gap) 분석
 
