@@ -20,10 +20,11 @@
 **Language**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
 ![Shell Script](https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnubash&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![R](https://img.shields.io/github/r-package/v/:user/:repo)
-
+![SAS](https://img.shields.io/badge/SAS-1E5288?style=for-the-badge)
+![SPSS](https://img.shields.io/badge/SPSS-1A5276?style=for-the-badge)
 
 **ML / DL**
 
@@ -43,6 +44,7 @@
 
 ![OpenAI-compatible API](https://img.shields.io/badge/OpenAI--compatible_API-412991?style=for-the-badge)
 ![Upstage Solar](https://img.shields.io/badge/Upstage_Solar-7C3AED?style=for-the-badge)
+![multilingual-e5-large](https://img.shields.io/badge/multilingual--e5--large-FFD21E?style=for-the-badge)
 ![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
 
 **Data / Infra**
@@ -62,6 +64,7 @@
 ![Boltz-2](https://img.shields.io/badge/Boltz--2-0B7285?style=for-the-badge)
 ![Protenix](https://img.shields.io/badge/Protenix-2B8A3E?style=for-the-badge)
 ![HADDOCK](https://img.shields.io/badge/HADDOCK-A61E4D?style=for-the-badge)
+![PyMOL](https://img.shields.io/badge/PyMOL-14B03D?style=for-the-badge)
 ![Biopython](https://img.shields.io/badge/Biopython-3776AB?style=for-the-badge&logo=biolink&logoColor=white)
 
 ---
