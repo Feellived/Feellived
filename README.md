@@ -10,7 +10,7 @@
 
 - 🧬 **서울대 항체·면역학 연구실** — AlphaFold3 계열 구조 예측 모델이 항체–항원 결합 자리를 어떻게 정하는지 통제 실험으로 규명하고, 정답 구조를 참조하지 않는 결합 자리 예측·재도킹 파이프라인을 구축했습니다.
 - 🧫 **고려대 RNA 대사 및 세포 신호 전달 연구실** — mTORC1 중심의 암세포 신호 전달, 종양 미세 환경 연구 과정에서 단백질, 전사체 정량 실험을 진행했습니다.
-- 💊 **데이터 분석/AI 학회 투빅스(ToBig's) 25기** — 25기 운영 부장으로 동아리를 이끌었습니다. <br>1) Computer vision, OCR, LLM을 이용한 복약지도 서비스 **PILLAR** <br>2) ADMET 예측 모델의 입력 서열 특성에 따른 불안정성 정량 플랫폼 **MIST**
+- 💊 **데이터 분석/AI 학회 투빅스(ToBig's) 25기** — 25기 운영 부장으로 동아리를 이끌었습니다. <br>1) Computer vision, OCR, LLM을 이용한 복약지도 서비스 **PILLAR** <br>2) ADMET 예측 모델의 입력 표현·상태 변화에 따른 예측 불안정성을 신뢰성 신호로 검증한 연구 **MIST**
 - 📊 **FNC entertainment 산학 연구 프로젝트** — 기획 의도와 팬 반응 사이의 괴리도 측정 플랫폼을 제작했습니다. 유튜브 댓글 데이터 수집부터 모델 학습, 웹 데모 배포까지 완료했습니다.
 
 ---
@@ -30,6 +30,7 @@
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-EC6B23?style=for-the-badge)
 ![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
@@ -46,6 +47,7 @@
 ![Upstage Solar](https://img.shields.io/badge/Upstage_Solar-7C3AED?style=for-the-badge)
 ![multilingual-e5-large](https://img.shields.io/badge/multilingual--e5--large-FFD21E?style=for-the-badge)
 ![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![ChemBERTa](https://img.shields.io/badge/ChemBERTa-8A5CF6?style=for-the-badge)
 
 **Data / Infra**
 
@@ -54,9 +56,18 @@
 ![Google Colab](https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 ![Gradio](https://img.shields.io/badge/Gradio-FF7C00?style=for-the-badge&logo=gradio&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Google Cloud Run](https://img.shields.io/badge/Cloud_Run-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Notion](https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white)
+
+**Cheminformatics**
+
+![RDKit](https://img.shields.io/badge/RDKit-3E6FA8?style=for-the-badge)
+![dimorphite-dl](https://img.shields.io/badge/dimorphite--dl-2B8A3E?style=for-the-badge)
+![TDC](https://img.shields.io/badge/Therapeutics_Data_Commons-0D6155?style=for-the-badge)
 
 **Bio / Structure**
 
@@ -89,6 +100,27 @@
 - Gradio 웹 데모 배포, `v1.0` 릴리스
 
 > `YOLOv11` `ConvNeXt` `PaddleOCR` `PyTorch` `MySQL` `Solar LLM` `Gradio`
+
+### 🧪 MIST — 입력 상태 민감성을 이용한 ADMET 예측 신뢰성 신호
+
+`Team PM` · 투빅스 25기 심화세션 · **[Feellived/molecular-reliability-signals](https://github.com/Feellived/molecular-reliability-signals)** · **[라이브 데모](https://mist-506994380250.asia-northeast3.run.app)**
+
+ADMET 예측 모델은 평균 정확도로 평가받지만, 신약 후보를 고를 때 필요한 것은 눈앞의 분자 하나에 대한 예측을 믿어도 되는지입니다. 기존 신뢰성 신호(적용가능도메인·컨포멀 예측·모델 불일치)는 모두 모델 쪽에서 나오므로, **입력 쪽**에서 신호를 찾았습니다. 같은 분자를 다르게 적거나(equivalent SMILES) 다른 상태로 넣었을 때(호변이성질체·양성자화·입체화학적 특성) 예측이 크게 달라진다면, 그 예측은 덜 믿을 만하다는 가설입니다.
+
+```
+분자 → 변형 생성 [equivalent SMILES ∥ 호변이성질체·양성자화 ∥ 입체화학적 특성]
+     → 지문 모델(XGBoost·RF) · 언어 모델(ChemBERTa) 채점
+     → 변형 간 예측 변동 → 축별 백분위 → 통합 B 신호
+     → 기준 모형(적용가능도메인 + 컨포멀)에 추가 → 정규화 AURC 개선폭 평가
+```
+
+- **TDC ADMET 22종, 골격 기반 분할** — 분할을 먼저 확정한 뒤 변형을 생성해 누출을 막고, 골격 군집 단위 bootstrap과 BH 보정으로 판정
+- **B축(입력 상태 민감성)을 기준 모형에 더하면 정규화 AURC가 +0.0286(상대 4.8%) 개선**, 골격 군집 95% 신뢰구간 [+0.0031, +0.0561]이 0을 배제 — A축(표현 불안정성)은 +0.0003으로 지지되지 않음
+- **효과는 CYP 6종에 집중** (+0.080, 그 외 16종 +0.009) — 결과를 본 뒤 발견한 패턴이라 구성을 고정하고 CYP1A2·CYP2C19에서 재현 (+0.054, +0.089; 같은 라이브러리의 다른 라벨)
+- **한계까지 함께 보고** — 모델 불일치가 B축보다 2.5배 큰 효과를 보였고, 예측 확신도를 기준선에 먼저 넣으면 B축의 추가 효과가 사라졌습니다. B축이 확신도와 겹친 정보일 가능성을 후속 과제로 남겼습니다
+- FastAPI + Cloud Run 웹 데모 배포 — 분자 하나를 넣으면 변형별 예측과 변동을 구조 위에 색으로 표시
+
+> `RDKit` `XGBoost` `ChemBERTa` `scikit-learn` `FastAPI` `Cloud Run`
 
 ### 🧬 MSA 조성 편향 규명과 결합 자리 유도 도킹 — 항체·항원 구조 예측
 
@@ -133,17 +165,6 @@ MSA의 **깊이(서열 수)를 고정한 채 구성원만 다시 뽑는** 설계
 - 의도하지 않은 ‘연주·악기’가 `×1.75` 로 최대 반응 → 기획 피드백 루프로 환원
 
 > `NLP` `제로샷 분류` `임베딩` `Python` `pandas`
-
-### 📈 통계적 추론과 회귀분석 — 투빅스 26기 정규세션
-
-`Lecturer` · **[Feellived/tobigs-26th-stat-inference-regression](https://github.com/Feellived/tobigs-26th-stat-inference-regression)**
-
-Framingham 심장연구 데이터 하나로 **EDA → 추론 → 회귀 → 예측** 을 관통하는 86슬라이드 강의와 Colab 과제를 제작했습니다.
-
-- 학생별 시드(`MY_SEED`)를 달리해 **정답 복붙이 불가능한 과제** 를 설계 — 실행값에 근거한 해석이 변별점
-- 리뷰 논문 *To Explain or to Predict?* (Shmueli, 2010)로 설명과 예측의 목표 차이를 강의 서사에 결합
-
-> `statsmodels` `scikit-learn` `Jupyter` `통계 교육`
 
 ---
 
